@@ -66,6 +66,7 @@ public class MainActivity extends Activity {
         	double price2 = cena1*(rozmiar2*rozmiar2)/(rozmiar1*rozmiar1);
             price2 = cena1*(rozmiar2*rozmiar2)/(rozmiar1*rozmiar1);
         	ref_price_2.setText(String.valueOf(price2));
+        	//uyvgfc
         }
     	else{
     		ref_price_2.setText(new String("Podaj poprawny rozmiar i cenę pizzy."));

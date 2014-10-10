@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jewproduction1.MainActivity" >
+
+    <EditText
+        android:id="@+id/rozmiar1"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Średnica pizzy" />
+    	
+
+    <EditText
+        android:id="@+id/cena1"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cena pizzy"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/rozmiar2"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Docelowa średnica pizzy"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/Calcbutton"
+        android:inputType="numberDecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Licz"
+        android:onClick="onPizzaSetted" />
+    
+	<EditText
+	    android:id="@+id/cena2"
+        android:focusableInTouchMode="false"
+        android:inputType="numberDecimal"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:ems="10" />
+
+	<EditText
+	    android:id="@+id/AllTriangles"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:ems="10"
+	    android:focusableInTouchMode="false"
+	    android:hint="ilość wszystkich kawałków"
+	    android:inputType="numberDecimal" />
+
+	<EditText
+	    android:id="@+id/HowMuchTriangles"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:ems="10"
+	    android:focusableInTouchMode="false"
+	    android:hint="zjedzone kawałki"
+	    android:inputType="numberDecimal" />
+
+	<Button
+	    android:id="@+id/TrianglesButton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Licz kawałki"
+	    android:onClick="HandleTriangles" />
+
+	<EditText
+	    android:id="@+id/CalcedTriangles"
+        android:focusableInTouchMode="false"
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:ems="10" />
+
+</LinearLayout>
